@@ -1,0 +1,76 @@
+.books{
+  display: inline-block;
+  
+ 
+}
+.books img{
+  width: 13rem;
+  height: 13rem;
+  margin: 2rem;
+}
+.bookinfo{
+  display: flex;
+  flex-direction: row;
+
+}
+.inputdata{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+input{
+  width: 50rem;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+
+}
+button{
+  width: 10rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: white;
+  border: 2px solid whitesmoke;
+}
+
+body{
+  background-color: black;
+}
+#brand{
+  color: #FFF;
+font-family: Varela;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#books{
+  color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.n1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.n2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.n{
+  display: flex;
+  align-items: center;
+  justify-content:end;
+}
